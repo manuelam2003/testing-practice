@@ -14,8 +14,8 @@ describe("Caesar Cipher", () => {
     expect(caesarCipher("ABCDE", 28)).toBe("CDEFG");
   });
   test("works with punctuation", () => {
-    expect(caesarCipher("Me llamo !Pepe¿ Rodriguez.", 5)).toBe(
-      "Rj qqfrt !Ujuj¿ Wtiwnlzje."
+    expect(caesarCipher("Me ll12o !Pepe¿ Rodriguez.", 5)).toBe(
+      "Rj qq12t !Ujuj¿ Wtiwnlzje."
     );
   });
 });
